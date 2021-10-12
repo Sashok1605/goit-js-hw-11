@@ -29,6 +29,7 @@
     "@popperjs/core": "^2.10.2",
     "axios": "^0.22.0",
     "bootstrap": "^5.1.2",
+    "infinite-scroll": "^4.0.1",
     "notiflix": "^3.1.0",
     "simplelightbox": "^2.9.0"
   }

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+    line-height: 1.5;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #search-form {
+    display: flex;
+    margin: 0 auto;
+    font: inherit;
+    padding: 8px;
+    max-width: 500px;
+    margin-bottom: 16px;
+    outline: none;
+  }
+  
+  #search-form input {
+    font-size: 18px;
+    height: 35px;
+    border-radius: 4px;
+    padding-left: 5px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: -20px;
+  }
+  
+  .photo-card {
+    border: solid greenyellow;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  #button {
+    display: block;
+    margin: 0 auto;
+
+  }
+  
+  .info {
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .info-item {
+    padding-bottom: 5px;
+  }
+  
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+  
+    pointer-events: none;
+  }
+ 
