@@ -9,8 +9,9 @@
     -moz-osx-font-smoothing: grayscale;
     background-color: #fafafa;
     font-family: 'Open Sans', sans-serif;
-    color: #212121;
+    // color: #212121;
     line-height: 1.5;
+    margin: 0 auto;
   }
   
   p {
@@ -54,7 +55,7 @@
   }
   
   .photo-card {
-    border: solid greenyellow;
+    border: solid rgb(23, 93, 197);
     width: 300px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -81,6 +82,10 @@
   
   .info-item {
     padding-bottom: 5px;
+  }
+
+  .info-item > b {
+    color: rgb(50, 47, 255);
   }
   
   .is-hidden {

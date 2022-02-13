@@ -122,7 +122,7 @@ function makePicturiesList (newCards) {
             <b>Comments ${item.comments}</b>
           </p>
           <p class="info-item">
-            <b>Downloads ${item.downloads}</b>
+            <b class="info-text">Downloads ${item.downloads}</b>
           </p>
         </div>
         </div>`
